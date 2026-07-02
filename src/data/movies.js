@@ -6,6 +6,13 @@ export const continueWatching = [
     image: '/assets/images/alie-in-borderland.png',
     meta: 'Episode 4 • 42m tersisa',
     progress: 65,
+    ageRating: '13+',
+    episodes: 8,
+    genres: ['Misteri', 'Kriminal', 'Fantasi'],
+    synopsis:
+      'Sebuah kisah epik tentang pembuatan bom atom. Mengikuti perjalanan J. Robert Oppenheimer dari pengembangan awal hingga konsekuensi moral yang mengubah dunia.',
+    director: 'Christopher Nolan',
+    cast: ['Cillian Murphy', 'Emily Blunt', 'Matt Damon'],
   },
   {
     id: 2,

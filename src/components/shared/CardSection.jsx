@@ -51,7 +51,7 @@ export default function CardSection({
           </button>
           <div
             ref={scrollRef}
-            className="flex gap-4 overflow-x-auto scrollbar-hide pb-2"
+            className="flex gap-4 overflow-x-auto scrollbar-hide pb-2 py-4"
             // Hide scrollbar while maintaining functional scrolling
             style={{ scrollbarWidth: 'none' }}
           >

@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 import SeriesPage from './pages/SeriesPage';
 import FilmsPage from './pages/FilmsPage';
 import WatchListPage from './pages/WatchListPage';
+import PlayerPage from './pages/PlayerPage';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/series" element={<SeriesPage />} />
         <Route path="/films" element={<FilmsPage />} />
         <Route path="/watch-list" element={<WatchListPage />} />
+        <Route path="/player/:id" element={<PlayerPage />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </BrowserRouter>
